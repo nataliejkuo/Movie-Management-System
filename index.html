@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <style>
+        .button {
+          background-color: white; 
+          border: none;
+          color: #ee82ee;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 14px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+
+        .colored-box {
+            display: inline-block;
+            border: 2px solid #ee82ee; 
+            padding: 20px;
+        }
+
+        p {
+            color: black
+        }
+
+        
+    </style>
+</head>
+
+
+<body>
+    <h1>Movie Management System</h1>
+    <!--<p>Please look at the console</p> -->
+    <button class="button">add movie</button>
+    <button class="button">print all movies</button>
+    <button class="button">toggle watched status</button>
+    <button class="button">show high rated movies</button>
+    <div id="result"></div>
+    <script src="script.js"> </script>
+
+    <div class="colored-box">
+        <p>movies with a rating higher than 3.5:</p>
+        <ul>
+            <li>Citizen Kane with a rating of 4</li>
+            <li>Zootopia has with a rating of 4.5</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
+
